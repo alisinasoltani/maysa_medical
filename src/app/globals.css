@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'iransans_light';
+  src: url('../../public/fonts/IRANSansX-Light.woff');
+}
+@font-face {
+  font-family: 'iransans_regular';
+  src: url('../../public/fonts/IRANSansX-Regular.woff');
+}
+@font-face {
+  font-family: 'iransans_med';
+  src: url('../../public/fonts/IRANSansX-Medium.woff');
+}
+@font-face {
+  font-family: 'iransans_demi';
+  src: url('../../public/fonts/IRANSansX-DemiBold.woff');
+}
+@font-face {
+  font-family: 'iransans_bold';
+  src: url('../../public/fonts/IRANSansX-Bold.woff');
+}
+@font-face {
+  font-family: 'title';
+  src: url('../../public/fonts/ZCOOLXiaoWei-Regular.ttf');
+}
+
+.iransans_light {
+  font-family: 'iransans_light';
+}
+.iransans_regular {
+  font-family: 'iransans_regular';
+}
+.iransans_med {
+  font-family: 'iransans_med';
+}
+.iransans_demi {
+  font-family: 'iransans_demi';
+}
+.iransans_bold {
+  font-family: 'iransans_bold';
+}
+.title {
+  font-family: 'title';
+}
