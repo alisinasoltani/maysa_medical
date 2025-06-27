@@ -4,6 +4,7 @@ import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import Hero from './Hero';
 import Footer from './Footer';
+import Navbar from './Navbar';
 
 // Register ScrollTrigger plugin
 gsap.registerPlugin(ScrollTrigger);
@@ -50,6 +51,7 @@ const ScrollSection = () => {
 
   return (
     <div ref={containerRef} className="h-screen overflow-x-hidden">
+      <Navbar />
       <section ref={sectionRef}
       className="h-screen w-[700vw] bg-gradient-to-l from-[#783198] from-10% via-[#9568E2] via-35% via-[#819CFF] via-46% via-[#EEBA38] via-77% to-[#F68C1F] to-100%
       flex flex-row gap-0 justify-start items-center">
