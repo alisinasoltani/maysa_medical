@@ -1,14 +1,16 @@
 import Banner from "@/Components/Store/Banner";
 import Navbar from "@/Components/Store/Navbar";
 import Hero from "@/Components/Store/Hero";
+import Footer from "@/Components/Store/Footer";
 
 const page = () => {
   return (
-    <div className="w-screen flex flex-col justify-center items-start">
+    <>
       <Banner />
-      {/* <Navbar /> */}
+      <Navbar />
       <Hero />
-    </div>
+      <Footer />
+    </>
   )
 }
 

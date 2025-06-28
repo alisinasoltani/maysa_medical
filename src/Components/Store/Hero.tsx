@@ -4,7 +4,7 @@ import download_icon from "@/../public/icons/store/download.svg";
 
 const Hero = () => {
   return (
-    <div className="w-screen h-screen flex flex-row justify-center md:justify-end items-center md:items-start
+    <div className="relative w-screen h-screen flex flex-row justify-center md:justify-end items-center md:items-start
     bg-gradient-to-l from-[#6B66FF] from-0% to-[#4B45EB] to-100%">
         <div className="flex flex-col items-center md:items-start gap-3 text-white px-[5rem] py-[5rem] mb-[12rem]" style={{ direction: 'rtl' }}>
             <h1 className="text-[3rem] md:text-[4rem] iransans_demi">
