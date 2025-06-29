@@ -6,6 +6,7 @@ import QuoteSlider from "@/Components/Store/QuoteSlider";
 import fs from 'fs';
 import path from 'path';
 import Slider from "@/Components/Store/Slider";
+import Segments from "@/Components/Store/Segments";
 
 const page = () => {
   const imagesFolder = path.join(process.cwd(), 'public/images/slider');
@@ -18,6 +19,7 @@ const page = () => {
       <Navbar />
       <Hero />
       <Slider imageFilenames={pngFiles} />
+      <Segments />
       <QuoteSlider />
       <Footer />
     </>
