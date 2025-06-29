@@ -7,6 +7,7 @@ import fs from 'fs';
 import path from 'path';
 import Slider from "@/Components/Store/Slider";
 import Segments from "@/Components/Store/Segments";
+import Brands from "@/Components/Store/Brands";
 
 const page = () => {
   const imagesFolder = path.join(process.cwd(), 'public/images/slider');
@@ -19,6 +20,7 @@ const page = () => {
       <Navbar />
       <Hero />
       <Slider imageFilenames={pngFiles} />
+      <Brands />
       <Segments />
       <QuoteSlider />
       <Footer />
