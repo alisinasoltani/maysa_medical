@@ -3,7 +3,7 @@ import quote_image from "@/../public/images/quote_image.png";
 
 const Quote = ({ quote, name, career, profile_image_path }: { quote: string, name: string, career: string, profile_image_path: string }) => {
   return (
-    <div className="relative flex flex-col justify-center items-end gap-8 bg-[#FFDB8F] rounded-3xl overflow-hidden px-12 py-12 max-w-[550px]">
+    <div className="relative flex flex-col justify-center items-end gap-8 bg-[#FFDB8F] rounded-3xl overflow-hidden px-12 py-12 max-w-[550px] shadow-xl cursor-pointer">
         <h4 className="iransans_regular text-xl z-10" style={{ direction: 'rtl' }}>
             { quote }
         </h4>
