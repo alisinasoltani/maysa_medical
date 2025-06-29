@@ -46,8 +46,8 @@ const Segments = () => {
           <Image src={lab_products} alt="کالا اندیش مایسا: معرفی محصولات آزمایشگاهی" />
         </div>
      </div>
-     <div className="w-screen flex flex-col lg:flex-row justify-center items-center lg:items-end lg:gap-[12rem] bg-[#6863FA] pb-[10rem] max-h-[700px] lg:max-h-[450px]">
-        <div className="w-[600px] -translate-y-12 lg:translate-y-0">
+     <div className="w-screen flex flex-col lg:flex-row justify-center items-center lg:items-end lg:gap-[12rem] bg-[#6863FA] pb-[10rem] lg:pb-[4rem] max-h-[700px] lg:max-h-[450px]">
+        <div className="w-[600px] lg:w-[800px] -translate-y-12 lg:translate-y-0">
           <Image src={women_products} alt="کالا اندیش مایسا: معرفی محصولات زنان و زایمان" />
         </div>
         <div className="place-self-start lg:-translate-y-10 flex flex-col items-center lg:items-start w-full lg:w-fit" style={{ direction: 'rtl' }}>
