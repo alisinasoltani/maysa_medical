@@ -1,7 +1,7 @@
 import Image from "next/image";
 import maysa_logo from "@/../public/images/maysa.png";
 import bekr_logo from "@/../public/images/bekr.png";
-import supa_logo from "@/../public/images/supa.png";
+import supa_logo from "@/../public/images/supa.jpg";
 import ava_logo from "@/../public/images/AvaMedical.png";
 
 const Brands = () => {
@@ -26,7 +26,7 @@ const Brands = () => {
             </div>
             <div className="w-[15rem] py-6 px-4 flex flex-col justify-center items-center gap-2 border-1 border-gray-300"
             style={{ direction: 'rtl' }}>
-                <div className="h-[8rem]">
+                <div className="w-[8.5rem]">
                     <Image src={supa_logo} alt="" />
                 </div>
                 <h3 className="pt-8 iransans_med text-xl">سوپا</h3>
@@ -37,7 +37,7 @@ const Brands = () => {
                 <div className="w-[12rem]">
                     <Image src={ava_logo} alt="" />
                 </div>
-                <h3 className="pt-8 iransans_med text-xl">آوا</h3>
+                <h3 className="pt-8 iransans_med text-xl">آوا مدیکال</h3>
                 <h5 className="pt-2 iransans_regular text-gray-500 text-lg">9 محصول</h5>
             </div>
         </div>
