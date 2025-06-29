@@ -51,7 +51,7 @@ const Segments = () => {
           <Image src={women_products} alt="کالا اندیش مایسا: معرفی محصولات زنان و زایمان" />
         </div>
         <div className="place-self-start lg:-translate-y-10 flex flex-col items-center lg:items-start w-full lg:w-fit" style={{ direction: 'rtl' }}>
-          <h2 className="iransans_med text-[3.3rem] text-[#221F73] ultra_stroke inline-block">
+          <h2 className="iransans_med text-[3.3rem] text-[#221F73] women_products_stroke inline-block">
             محصولات زنان و زایمان
           </h2>
           <h3 className="iransans_regular text-[2rem] w-[31rem] text-white text-right pt-4">

@@ -56,7 +56,7 @@ const quotes: Quote[] = [
 
 const QuoteSlider = () => {
   return (
-    <div className="py-[5rem] px-8 overflow-visible">
+    <div className="pb-[8rem] pt-[0rem] px-8 overflow-visible">
         <Swiper navigation={true} modules={[Navigation]} slidesPerView={1} spaceBetween={20} style={{ overflow: 'visible' }}
         breakpoints={{
           640: {
