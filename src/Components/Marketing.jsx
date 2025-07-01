@@ -1,3 +1,4 @@
+
 const Marketing = () => {
   return (
     <div className="w-screen h-screen flex justify-end items-end px-[4rem] py-[4rem]">
@@ -20,9 +21,9 @@ const Marketing = () => {
                     دریافت درب انبار مایسا
                 </h4>
             </div>
-            <button className="px-3 py-2 bg-white rounded-xl w-fit text-black iransans_med">
+            {/* <button className="px-3 py-2 bg-white rounded-xl w-fit text-black iransans_med">
                 تماس با ما
-            </button>
+            </button> */}
         </div>
     </div>
   );

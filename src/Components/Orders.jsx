@@ -1,3 +1,6 @@
+// import { InteractiveHoverButton } from '@/../../src/Components/ui/interactive-hover-button';
+import { ArrowLeft } from "lucide-react";
+
 const Orders = () => {
   return (
     <div className="w-screen h-screen flex justify-end items-end px-[4rem] py-[4rem]">
@@ -20,9 +23,11 @@ const Orders = () => {
                     دریافت درب انبار مایسا
                 </h4>
             </div>
-            <button className="px-3 py-2 bg-white rounded-xl w-fit text-black iransans_med">
-                تماس با ما
+            <button className="px-3 py-2 bg-white rounded-xl w-fit text-black iransans_med flex justify-center items-center gap-2">
+                <h5>تماس با ما</h5>
+                <ArrowLeft />
             </button>
+            {/* <InteractiveHoverButton text='تماس با ما' bg_hover='#783198' /> */}
         </div>
     </div>
   )
