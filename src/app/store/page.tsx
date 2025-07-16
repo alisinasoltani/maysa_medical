@@ -8,6 +8,8 @@ import path from 'path';
 import Slider from "@/Components/Store/Slider";
 import Segments from "@/Components/Store/Segments";
 import Brands from "@/Components/Store/Brands";
+import ProductCard from "@/Components/Store/ProductCard";
+import GoldenProducts from "@/Components/Store/GoldenProducts";
 
 const page = () => {
   const imagesFolder = path.join(process.cwd(), 'public/images/slider');
@@ -21,6 +23,7 @@ const page = () => {
       <Hero />
       <Slider imageFilenames={pngFiles} />
       <Brands />
+      <GoldenProducts />
       <Segments />
       <QuoteSlider />
       <Footer />
