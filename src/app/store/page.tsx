@@ -8,7 +8,6 @@ import path from 'path';
 import Slider from "@/Components/Store/Slider";
 import Segments from "@/Components/Store/Segments";
 import Brands from "@/Components/Store/Brands";
-import ProductCard from "@/Components/Store/ProductCard";
 import GoldenProducts from "@/Components/Store/GoldenProducts";
 import PopularProducts from "@/Components/Store/PopularProducts";
 
