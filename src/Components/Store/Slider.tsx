@@ -10,7 +10,7 @@ type ImageSwiperProps = {
 
 const ImageSwiper: React.FC<ImageSwiperProps> = ({ imageFilenames, folderPath = "/images/slider" }) => {
   return (
-    <div className='relative -top-[5rem] w-[1000px] rounded-3xl overflow-hidden flex justify-center items-center content-center'>
+    <div className='relative -top-[5rem] rounded-3xl overflow-hidden flex justify-center items-center content-center w-full px-6 md:px-6 lg:px-0'>
         <Swiper className='w-[100%] max-w-[1000px]' centeredSlides={true} spaceBetween={10} slidesPerView={1} modules={[Pagination]}>
             {imageFilenames.map((filename) => (
                 <SwiperSlide key={filename} className='flex justify-center w-full'>
