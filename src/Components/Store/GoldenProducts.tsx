@@ -8,10 +8,10 @@ import 'swiper/css';
 
 const GoldenProducts = () => {
   return (
-    <div className="flex flex-row items-center w-full max-w-6xl mx-auto pb-[12rem] md:py-[6rem]">
+    <div className="flex flex-row items-center w-full max-w-6xl mx-auto pb-[6rem] md:py-[6rem]">
       <div className="flex flex-col w-full md:w-4/5 gap-4">
         <h2 className="flex place-self-end pb-6 md:hidden text-2xl iransans_med px-4 text-right">پیشنهادات طلایی</h2>
-        <div className="hidden lg:flex flex-row justify-end flex-wrap gap-4">
+        <div className="hidden lg:flex flex-row justify-end flex-wrap gap-4 mr-4 ">
           <button className="rounded-3xl px-4 py-2 w-[6rem] text-center bg-[#FFEBC0] border-[1.5px] hover:bg-[#F7B32E] hover:shadow-lg cursor-pointer border-[#F7B32E] text-black transition-all">
             کارومد
           </button>
@@ -83,7 +83,7 @@ const GoldenProducts = () => {
           </Swiper>
         </div>
       </div>
-      <div className="hidden md:flex w-1/5 ml-4 rounded-lg overflow-hidden">
+      <div className="hidden md:flex w-1/5 rounded-lg overflow-hidden">
         <Image src={golden_products_banner} height={600} alt="golden product offers" />
       </div>
     </div>

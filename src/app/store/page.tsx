@@ -10,6 +10,7 @@ import Segments from "@/Components/Store/Segments";
 import Brands from "@/Components/Store/Brands";
 import ProductCard from "@/Components/Store/ProductCard";
 import GoldenProducts from "@/Components/Store/GoldenProducts";
+import PopularProducts from "@/Components/Store/PopularProducts";
 
 const page = () => {
   const imagesFolder = path.join(process.cwd(), 'public/images/slider');
@@ -24,6 +25,7 @@ const page = () => {
       <Slider imageFilenames={pngFiles} />
       <Brands />
       <GoldenProducts />
+      <PopularProducts />
       <Segments />
       <QuoteSlider />
       <Footer />
